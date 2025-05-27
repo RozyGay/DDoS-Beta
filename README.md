@@ -28,7 +28,7 @@
 3. Создайте файл `proxies.txt` с прокси SOCKS5 (по одному на строку, формат: `socks5://ip:port` или `socks5://username:password@ip:port`), если используете `USE_PROXY=True`.
 
 ## Использование
-1. Отредактируйте скрипт (`optimized_ddos_script.py`), чтобы указать цель:
+1. Отредактируйте скрипт (`ddos.py`), чтобы указать цель:
    ```python
    target_ip = "127.0.0.1"  # Замените на IP тестового сервера
    target_port = 7777
